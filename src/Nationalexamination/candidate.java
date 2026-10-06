@@ -26,4 +26,14 @@ public class candidate {
         this.schoolName= schoolName;
         System.out.println("Constructor Invoked");
     }
+    // Method to display candidate information
+    public void showCandidateInfo() {
+        System.out.println("Candidate Name: " + candidateName);
+        System.out.println("School Name: " + schoolName);
+        System.out.println("Exam Year: " + examYear);
+        System.out.println("Registration Fee: UGX " + registrationFee);
+        System.out.println("Grading Policy: " + gradingPolicy);
+        System.out.println("Registration Status: " + registrationStatus);
+        System.out.println("Examination Centre: " + examinationCentre);
+    }
 }
