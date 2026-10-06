@@ -8,5 +8,9 @@ public class candidate {
     static String gradingPolicy;
     String registrationStatus;
     String examinationCentre;
-
+    {
+        registrationStatus = "Not Registered";
+        examinationCentre = "Not Assigned";
+        System.out.println("IIB Invoked");
+    }
 }
